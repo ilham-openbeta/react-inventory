@@ -1,11 +1,11 @@
 const axios = require('axios')
 
 axios.interceptors.response.use(response => {
-    if (response.status != 200) {
+    if (response.status !== 200) {
         throw new Error(response.statusText)
     }
     let data = response.data
-    if (response.data.code != 200) {
+    if (response.data.code !== 200) {
         throw new Error(data.message)
     }
     return data.data;
