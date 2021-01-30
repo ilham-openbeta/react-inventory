@@ -2,7 +2,7 @@ import {
     FIND_ALL_UNIT,
     FIND_UNIT_BY_ID,
     REMOVE_UNIT_BY_ID,
-    SAVE_UNIT, TEST_ACTION
+    SAVE_UNIT
 } from "../constants/actions"
 
 // Actions must have a type field that indicates the type of action being performed. Types can be defined as constants

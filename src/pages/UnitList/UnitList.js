@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 import {findAll, removeById} from '../../actions/unitAction'
 import {faTrash, faEdit, faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {LoopingRhombusesSpinner, TrinityRingsSpinner} from "react-epic-spinners";
+import {TrinityRingsSpinner} from "react-epic-spinners";
 import swal from '@sweetalert/with-react'
 
 function UnitRow({data, onDelete, onUpdate}) {

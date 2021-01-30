@@ -10,7 +10,7 @@ import {
     REMOVE_UNIT_BY_ID_SUCCESS,
     SAVE_UNIT,
     SAVE_UNIT_FAILURE,
-    SAVE_UNIT_SUCCESS, TEST_ACTION
+    SAVE_UNIT_SUCCESS
 }
     from "../constants/actions";
 

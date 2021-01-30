@@ -1,6 +1,5 @@
 import {combineReducers} from 'redux'
-import {findAllUnit, findUnitById, removeUnitById, saveUnit, testReducer} from "./unitReducer";
-
+import {findAllUnit, findUnitById, removeUnitById, saveUnit} from "./unitReducer";
 
 const rootReducer = combineReducers({
     findAllUnit, findUnitById, removeUnitById, saveUnit
