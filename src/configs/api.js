@@ -16,7 +16,9 @@ axios.interceptors.response.use(response => {
 axios.defaults.timeout = 2000;
 
 if (process.env.NODE_ENV === "production") {
-    axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
+    if (process.env.REACT_APP_BASE_URL) {
+        axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
+    }
 }
 
 export default axios
